@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  [data-theme="default"] {
+      background: rgba(34, 39, 46);
+      color: rgb(108, 131, 161);
+      text-shadow: (55, 62, 71);
+  }
+
+  [data-theme="neon"] {
+      background: rgba(20, 61, 42);
+      color: rgb(150, 182, 174);
+      text-shadow: rgba(20, 82, 11);
+  }
+}
